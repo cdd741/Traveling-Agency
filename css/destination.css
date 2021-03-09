@@ -1,0 +1,67 @@
+.hawaii {
+  background-image: url(../assets/hawaii.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.iceland {
+  background-image: url(../assets/iceland.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.greece {
+  background-image: url(../assets/greece.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.destination {
+  padding: 4.5vw 4vw;
+}
+
+.destination__name {
+  color: white;
+  font-size: 5rem;
+  margin: 3rem 0;
+}
+
+.destination__itinerary-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.destination__itinerary {
+  background-color: white;
+  text-align: center;
+  margin: 0 1.3vw;
+  border-radius: 5px;
+  padding: 16px 15px;
+}
+
+.destination__date {
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+}
+
+.destination_schedule {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 15px;
+  margin: 1.5rem 0;
+}
+
+.destination__detail {
+  background-color: #f0f0f0;
+  padding: 0.8rem 0;
+  width: 220px;
+  margin-bottom: 15px;
+}

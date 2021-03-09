@@ -1,0 +1,112 @@
+/* hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  height: fit-content;
+  padding: 8vw;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 42vw;
+}
+
+.hero__title {
+  font-family: "Comic Sans MS";
+  font-size: 2.2rem;
+  color: #101d42;
+  margin-top: 2rem;
+}
+
+.hero__link {
+  text-decoration: none;
+}
+
+.hero__link > button {
+  color: white;
+  background-color: #5969d0;
+  border-radius: 35px;
+  border-style: none;
+  margin-top: 15px;
+  width: 150px;
+  height: 35px;
+  transition: 0.5s;
+}
+
+.hero__link > button:hover {
+  background-color: #e37889;
+}
+
+.hero__image {
+  display: flex;
+  align-items: center;
+}
+.hero__image img {
+  width: 30vmax;
+  display: block;
+}
+
+/* recommendations */
+
+.recommendations > a {
+  text-decoration: none;
+}
+
+.recommendations {
+  padding: 50px 8vw 200px 8vw;
+}
+
+.recommendations__title {
+  color: #101d42;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.recommendations__container {
+  display: flex;
+  justify-content: center;
+}
+
+.recommendations__destination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 0 1.5vw;
+  width: 17.5vw;
+  height: 24vw;
+  transition: 0.5s;
+}
+
+.recommendations__destination:hover {
+  box-shadow: 0 10px 10px rgba(89, 105, 208, 1);
+}
+
+.recommendations__destination--hawaii {
+  background-image: url(../assets/hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.recommendations__destination--iceland {
+  background-image: url(../assets/iceland.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.recommendations__destination--greece {
+  background-image: url(../assets/greece.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.recommendations__destination-name {
+  color: white;
+  margin-right: 16px;
+}
